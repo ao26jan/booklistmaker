@@ -1,1 +1,1 @@
-web: gunicorn sample_app.wsgi --log-file -
+web: gunicorn booklistmaker.wsgi --log-file -
