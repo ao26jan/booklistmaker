@@ -1,1 +1,1 @@
-web: gunicorn --env DJANGO_SETTINGS_MODULE=booklistmaker.settings booklistmaker.wsgi --log-file -
+web: gunicorn booklistmaker : app --log-file -
