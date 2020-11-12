@@ -1,1 +1,1 @@
-web: gunicorn booklistmaker.wsgi --log-file -
+web: gunicorn booklistmaker.wsgi:application -b 0.0.0.0:$PORT
