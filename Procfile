@@ -1,1 +1,0 @@
-web: gunicorn booklistmaker : app --log-file -
